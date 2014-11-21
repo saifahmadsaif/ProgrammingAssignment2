@@ -17,7 +17,7 @@ makeCacheMatrix <- function(x = matrix()){
        getInverse <- function() m #get inverse matrix
        list(set = set, get = get,
                     setInverse = setInverse,
-                    getInverse = getInverse)  ## create list of functions
+                    getInverse = getInverse)  ## create list of fn
 }
  
 ## cacheSolve take a custom matrix type created by the makeCacheMatrix function
